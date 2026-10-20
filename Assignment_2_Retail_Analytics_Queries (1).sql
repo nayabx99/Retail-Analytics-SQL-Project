@@ -1,10 +1,6 @@
 -- Assignment 2: Retail Business SQL Analysis
 -- Database: PostgreSQL (pgAdmin 4)
 -- Contains Q1-Q15 from the assignment brief.
--- Run one question at a time by selecting that question's query and pressing F5.
--- Business rule: normal revenue questions include only Delivered orders.
--- Gross line value = quantity * unit_price_at_sale.
--- Net line value = quantity * unit_price_at_sale * (1 - discount_rate).
 
 -- Q1. Delivered orders in the required date range, newest date first.
 SELECT order_id, order_date, customer_id, payment_method
